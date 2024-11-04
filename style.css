@@ -1,0 +1,36 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  margin: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.picdiv
+{
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+}
+
+.mywrap{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.image{
+  flex: 1;
+  min-width: 50px;
+  min-height: 50px;
+  margin: 10px;
+  border: solid .5px black;
+}
+
+<script src="script.js"></script>
