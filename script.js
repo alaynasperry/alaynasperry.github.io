@@ -1,5 +1,5 @@
-function showit(var1) {
-  console.log(var1)
+function showit(page) {
+  console.log(page)
   //hide the one div that is shown
   document.getElementById("home").style.display = "none"
   document.getElementById("about").style.display = "none"
@@ -8,5 +8,5 @@ function showit(var1) {
   document.getElementById("testimonials").style.display = "none"
   document.getElementById("contact").style.display = "none"
   
-  document.getElementById(var1).style.display = 'block';
+  document.getElementById(page).style.display = 'block';
 }
