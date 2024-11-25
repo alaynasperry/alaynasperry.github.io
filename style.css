@@ -21,7 +21,7 @@ html, body{
   margin-left: auto;
 }
 
-.buttons :hover {
+.buttons button:hover {
   text-decoration: underline;
 }
 
@@ -43,6 +43,8 @@ button{
   font-family: "Kaisei Decol", serif;
   padding: 6px;
 }
+
+
 
 .homebody1{
   position: relative;
@@ -71,7 +73,6 @@ button{
   height: 50px;
   border: 1px solid;
   margin: 20px;
-  height: 250px;
   padding: 10px;
   font-size: 15px;
   font-family: "Kaisei Decol", serif;
@@ -91,6 +92,7 @@ button{
   height: 20px;
   background-color: black;
   bottom: 0%;
+  color: white;
 }
 
 @media (max-width: 600px) {
@@ -100,7 +102,9 @@ button{
     height: 50px;
   }
   
+  
+  
   .buttons{
     margin: auto;
   }
-}
+  }
