@@ -44,16 +44,6 @@ button{
   padding: 6px;
 }
 
-/* .float {
-  position: absolute;
-  margin-top: 42%;
-  color: white;
-  font-size: 30px;
-  z-index: 2;
-  padding: 10px;
-  font-family: "Old Standard TT", serif;
-} */
-
 .homebody1{
   position: relative;
   height: 300px;
@@ -110,12 +100,7 @@ button{
     height: 50px;
   }
   
-  
-  
   .buttons{
     margin: auto;
   }
-  
-  @media (max-width: 250px) {
-  .buttons{
-  }
+
