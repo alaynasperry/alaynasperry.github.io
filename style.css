@@ -17,6 +17,19 @@ html, body{
     font-size: 30px;
 }
 
+.header2 {
+    display: flex;
+    position: relative;
+    background: black;
+    height: 60px;
+    z-index: 2;
+    padding: 15px;
+    color: white;
+    align-items: center;
+    font-family: "League Script", cursive;
+    font-size: 30px;
+}
+
 .buttons{
   margin-left: auto;
 }
@@ -35,6 +48,7 @@ img.background {
     z-index: -1;
 }
 
+
 button{
   position: relative;
   background-color: transparent;
@@ -44,7 +58,14 @@ button{
   padding: 6px;
 }
 
-
+.base{
+  position: relative;
+  height: 500px;
+  width: auto;
+  background-color: white;
+  padding: 20px;
+  z-index: -3;
+}
 
 .homebody1{
   position: relative;
@@ -60,6 +81,15 @@ button{
   height: 300px;
   padding: 15px;
   font-size: 30px;
+}
+
+.heada1{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
 }
 
 .homebase3{
@@ -88,6 +118,354 @@ button{
   margin: 20px;
 }
 
+.aboutpage{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.bodya1{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodya2{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.bodya3{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.headeri{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.service1{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.service1a{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service1b{
+  flex: 2;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service2{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.service2a{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service2b{
+  flex: 2;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service3{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.service3a{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service3b{
+  flex: 2;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.headert{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.client1{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photoi1-1{
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.photoi1-2{
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.photoi1-3{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.testimonial1{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  margin-top: 110px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.client2{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photoi2-1{
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.photoi2-2{
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.photoi2-3{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.testimonial2{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  margin-top: 110px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.client3{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photoi3-1{
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.photoi3-2{
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.photoi3-3{
+  flex: 1;
+  height: 100px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.testimonial3{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  margin-top: 110px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.headerc{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.contactinfo{
+  border: 1px solid black;
+  height: 150px;
+  padding: 15px;
+  font-size: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.headerg{
+  border: 1px solid black;
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.pic{
+  flex: 1;
+  height: 100%;
+  width: 100%;;
+}
+
+.gallerywrap{
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row1{
+  flex: 1;
+}
+
+.row2{
+  flex: 1;
+}
+
+.row3{
+  flex: 1;
+}
+
+.picdiv{
+  max-height: 100%;
+  min-width: 200px;
+  padding: 20px;
+  margin: 5px;
+}
+
 .footer{
   height: 20px;
   background-color: black;
@@ -97,6 +475,12 @@ button{
 
 @media (max-width: 600px) {
   .header {
+    flex-direction: column;
+    text-align: center;
+    height: 50px;
+  }
+  
+  .header2 {
     flex-direction: column;
     text-align: center;
     height: 50px;
