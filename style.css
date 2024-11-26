@@ -1,10 +1,4 @@
-.html{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-}
-
-.body{
+html, body{
   height: 100%;
   width: 100%;
   margin: 0;
@@ -99,14 +93,14 @@ button{
 }
 
 .homebase3{
-  height: 50px;
+  height: 200px;
   display: flex;
   flex-direction: row;
 }
 
 .homebase4{
   flex: 1;
-  height: 50px;
+  height: 150px;
   border: 1px solid;
   margin: 20px;
   padding: 10px;
@@ -118,7 +112,7 @@ button{
 .photo-carousel{
   flex: 1;
   position: relative;
-  height: 50px;
+  height: 150px;
   border: 1px solid;
   padding: 10px;
   margin: 20px;
@@ -467,8 +461,7 @@ button{
 
 .picdiv{
   max-height: 100%;
-  min-width: 200px;
-  padding: 20px;
+  padding: 5px;
   margin: 5px;
 }
 
