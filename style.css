@@ -1,3 +1,7 @@
+
+HTML
+CSS
+Result
 html, body{
   height: 100%;
   width: 100%;
@@ -9,6 +13,7 @@ html, body{
     display: flex;
     background: rgba(0,0,0,.5);
     height: 50px;
+    width: 100%;
     z-index: 2;
     padding: 15px;
     color: white;
@@ -17,7 +22,6 @@ html, body{
     font-size: 30px;
     position: fixed;
     top: 0;
-    width: 100%;
 }
 
 .header2 {
@@ -36,7 +40,7 @@ html, body{
 }
 
 .buttons{
-  margin-left: auto;
+  margin-left: 49%;
 }
 
 .buttons button:hover {
@@ -313,7 +317,7 @@ img.background {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  margin-top: 0;
   text-align: left;
   border: none;
   outline: none;
@@ -353,7 +357,7 @@ img.background {
 
 .service1b{
   flex: 2;
-  height: 100px;
+  height: 200px;
   aspect-ratio: 2/1;
   border: 1px solid;
   margin: 20px;
