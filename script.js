@@ -1,4 +1,3 @@
-
 function showit(page) {
   console.log(page)
   document.getElementById("home").style.display = "none"
