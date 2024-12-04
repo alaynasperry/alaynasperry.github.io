@@ -90,7 +90,7 @@ img.background {
 
 .homebase2{
   border: 1px solid black;
-  height: 350px;
+  height: 400px;
   padding: 15px;
   font-size: 30px;
   text-align: right;
@@ -263,7 +263,7 @@ img.background {
 
 .bodya3{
   flex: 1;
-  height: 600%;
+  height: 700%;
   border: 1px solid;
   margin: 20px;
   padding: 10px;
@@ -279,7 +279,7 @@ img.background {
 }
 
 .letstalk button{
-  margin-top: 320px;
+  margin-top: 400px;
   margin-left: 775px;
   font-size: 20px;
   border: 2px black solid;
@@ -471,14 +471,14 @@ img.background {
 
 .client1{
   margin-top: 5%;
-  height: 20%;
+  margin-left: 3%;
+  height: 50px;
   display: flex;
   flex-direction: row;
 }
 
 .photoi{
   flex: 1;
-  padding: 20px;
   border-radius: 50%;
   aspect-ratio: 1/1;
   display: inline-block;
@@ -492,7 +492,7 @@ img.background {
 }
 
 .testimonial1{
-  margin-top: 5%;
+  margin-top: 45%;
   height: 100px;
   padding: 40px;
   font-size: 15px;
@@ -500,6 +500,7 @@ img.background {
 
 .client2{
   margin-top: 5%;
+  margin-left: 3%;
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -514,6 +515,7 @@ img.background {
 
 .client3{
   margin-top: 5%;
+  margin-left: 3%;
   height: 50px;
   display: flex;
   flex-direction: row;
@@ -542,14 +544,13 @@ img.background {
 }
 
 .contactinfo{
-  border: 1px solid black;
   height: 150px;
   padding: 15px;
   font-size: 30px;
   margin-right: 40px;
   margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -607,6 +608,7 @@ input[type=submit]:hover {
 
 .gallerywrap{
   margin-top: 10px;
+  margin-left: 40px;
   display: flex;
   flex-direction: row;
 }
@@ -616,10 +618,10 @@ input[type=submit]:hover {
 }
 
 .picdiv{
-  width: 86%;
+  width: 85%;
   max-height: 100%;
   padding: 5px;
-  margin: 7px;
+  margin: 5px;
 }
 
 .picdiv img{
@@ -635,6 +637,24 @@ input[type=submit]:hover {
   text-align: center;
   padding: 25px;
   font-family: "Kaisei Decol", serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: black;
 }
 
 @media (max-width: 600px) {
