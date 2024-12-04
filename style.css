@@ -1,8 +1,14 @@
-html, body{
+html{
   height: 100%;
   width: 100%;
   margin: 0;
-  
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #FFFFF6;
 }
 
 .header {
@@ -88,16 +94,13 @@ img.background {
   padding: 15px;
   font-size: 30px;
   text-align: right;
-  background-color: white;
 }
 
 .heada1{
-  border: 1px solid black;
-  background-color: white;
   height: 50px;
   padding: 15px;
   font-size: 30px;
-  margin: auto;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -244,6 +247,7 @@ img.background {
 }
 
 .bodya1{
+  margin-top: 5%;
   height: 50px;
   background-color: #FFFFF6;
   display: flex;
@@ -274,9 +278,8 @@ img.background {
   object-fit: contain;
 }
 
-.viewcontact button{
-  position: absolute;
-  margin-top: 300px;
+.letstalk button{
+  margin-top: 320px;
   margin-left: 775px;
   font-size: 20px;
   border: 2px black solid;
@@ -286,7 +289,7 @@ img.background {
   font-family: "Kaisei Decol", serif;
 }
 
-.viewcontact button:hover {
+.letstalk button:hover {
   text-decoration: underline;
   background-color: black;
   color: #FFFFF6;
@@ -295,12 +298,15 @@ img.background {
 
 .investpage{
   background-color: #FFFFF6;
-  height: 900%;
-  margin-top: 100px;
+  height: 130%;
+  margin-top: 130px;
+}
+
+.bodyi{
+  height: 130%;
 }
 
 .headeri{
-  border: 1px solid black;
   height: 50px;
   padding: 15px;
   font-size: 30px;
@@ -309,9 +315,12 @@ img.background {
 }
 
 .accordion {
-  background-color: #eee;
+  background-color: #FFFFF6;
+  width: 200px;
+  border: 3px brown;
   color: #444;
   cursor: pointer;
+  font-family: "Kaisei Decol", serif;
   padding: 18px;
   margin-top: 0;
   text-align: left;
@@ -321,20 +330,36 @@ img.background {
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #e8e8e1;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
 }
 
 .panel {
   padding: 0 18px;
+  width: 200px;
   background-color: white;
   display: none;
   max-height: 0;
   overflow: hidden;
+  text-align: left;
+  font-size: 15px;
   transition: max-height 0.2s ease-out;
 }
 
 .service1{
-  height: 50px;
+  height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -342,89 +367,98 @@ img.background {
 .service1a{
   flex: 1;
   height: 100px;
-  aspect-ratio: 1/1;
-  border: 1px solid;
-  margin: 20px;
+  margin-top: 20px;
   padding: 10px;
   font-size: 15px;
   font-family: "Kaisei Decol", serif;
   text-align: center;
+}
+
+.service1a img{
+  width: 40%;
+  height: auto;
 }
 
 .service1b{
-  flex: 2;
-  height: 200px;
-  aspect-ratio: 2/1;
+  flex: 1;
+  height: 300px;
   border: 1px solid;
   margin: 20px;
-  padding: 10px;
-  font-size: 15px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
   font-family: "Kaisei Decol", serif;
-  text-align: center;
 }
 
 .service2{
-  height: 50px;
+  height: 100px;
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  margin-top: 25%;
 }
 
 .service2a{
   flex: 1;
   height: 100px;
-  border: 1px solid;
-  margin: 20px;
   padding: 10px;
+  margin-top: -20px;
   font-size: 15px;
   font-family: "Kaisei Decol", serif;
   text-align: center;
 }
 
+.service2a img{
+  width: 40%;
+  height: auto;
+}
+
 .service2b{
-  flex: 2;
-  height: 100px;
+  flex: 1;
+  height: 200px;
   border: 1px solid;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   font-size: 15px;
   font-family: "Kaisei Decol", serif;
-  text-align: center;
+  text-align: left;
 }
 
 .service3{
   height: 50px;
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  margin-top: 20%;
 }
 
 .service3a{
   flex: 1;
-  height: 100px;
-  border: 1px solid;
-  margin: 20px;
+  height: 125px;
+  margin-top: 35px;
   padding: 10px;
   font-size: 15px;
   font-family: "Kaisei Decol", serif;
   text-align: center;
 }
 
+.service3a img{
+  width: 60%;
+  height: auto;
+}
+
 .service3b{
-  flex: 2;
-  height: 100px;
+  flex: 1;
+  height: 225px;
   border: 1px solid;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   font-size: 15px;
   font-family: "Kaisei Decol", serif;
-  text-align: center;
+  text-align: left;
 }
 
 .testimonialspage{
   background-color: #FFFFF6;
-  height: 400%;
-  margin-top: 100px;
+  height: 375%;
 }
 
 .headert{
@@ -494,16 +528,16 @@ img.background {
 
 .contactpage{
   background-color: #FFFFF6;
-  height: 600px;
+  height: 150%;
   margin-top: 100px;
 }
 
 .headerc{
-  border: 1px solid black;
+  
   height: 50px;
   padding: 15px;
   font-size: 30px;
-  margin: 5%;
+  margin-top: 10%;
   text-align: center;
 }
 
@@ -514,13 +548,46 @@ img.background {
   font-size: 30px;
   margin-right: 40px;
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
   text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e8e8e1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  transition: .25s;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #FFFFF6;
+  padding: 20px;
 }
 
 .gallerypage{
   background-color: #FFFFF6;
-  height: 2500px;
+  height: 3000px;
   margin-top: -50px
 }
 
@@ -549,7 +616,7 @@ img.background {
 }
 
 .picdiv{
-  width: 92%;
+  width: 86%;
   max-height: 100%;
   padding: 5px;
   margin: 7px;
