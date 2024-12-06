@@ -285,11 +285,12 @@ img.background {
 
 .letstalk{
   margin-top: -200px;
+  margin-bottom: 200px;
 }
 
 .letstalk button{
   margin-top: -200px;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   margin-left: 775px;
   font-size: 20px;
   border: 2px black solid;
