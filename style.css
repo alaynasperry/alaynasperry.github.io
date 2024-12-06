@@ -288,8 +288,8 @@ img.background {
 }
 
 .letstalk button{
-  margin-top: -500px;
-  margin-bottom: 200px;
+  margin-top: -200px;
+  margin-bottom: 500px;
   margin-left: 775px;
   font-size: 20px;
   border: 2px black solid;
