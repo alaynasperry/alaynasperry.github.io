@@ -283,14 +283,9 @@ img.background {
   object-fit: contain;
 }
 
-.letstalk{
-  margin-top: -100px;
-  
-}
-
 .letstalk button{
   margin-top: -200px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
   margin-left: 775px;
   font-size: 20px;
   border: 2px black solid;
