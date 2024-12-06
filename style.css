@@ -283,6 +283,11 @@ img.background {
   object-fit: contain;
 }
 
+.letstalk{
+  margin-top: -200px;
+  
+}
+
 .letstalk button{
   margin-top: -200px;
   margin-bottom: 300px;
@@ -567,41 +572,7 @@ img.background {
   margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
-  font-family: "Kaisei Decol", serif;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #e8e8e1;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  font-family: "Kaisei Decol", serif;
-}
-
-input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: white;
-  color: black;
-  transition: .25s;
-}
-
-.container {
-  margin-top: 5%;
-  border-radius: 5px;
-  background-color: #FFFFF6;
-  padding: 20px;
+  border: 1px solid;
   font-family: "Kaisei Decol", serif;
 }
 
@@ -750,10 +721,12 @@ input[type=submit]:hover {
   
   .bodya3{
     margin-left: 5%;
+    font-size: 7px;
+    height: 280px;
   }
   
   .letstalk{
-    margin-top: -250px;
+    margin-top: -150px;
   }
   
   .letstalk button{
@@ -764,11 +737,6 @@ input[type=submit]:hover {
   .base{
     margin-left: -20px;
     height: 600px;
-  }
-  
-  .bodya3{
-    font-size: 7px;
-    height: 280px;
   }
   
   .headerg{
@@ -809,7 +777,7 @@ input[type=submit]:hover {
   .accordion{
     height: 10px;
     width: 100%;
-    padding: 0;
+    padding: 10px;
     
   }
   
@@ -893,9 +861,6 @@ input[type=submit]:hover {
     font-size: 25px;
   }
   
-  .container{
-    margin-top: 10%;
-  }
   
   }
   
