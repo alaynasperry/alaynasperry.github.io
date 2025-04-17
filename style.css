@@ -153,6 +153,8 @@ html{
     height: 20%;
     display: flex;
     flex-direction: row;
+    margin-top: 15px;;
+    margin-left: auto;
     font-size: 15px;
     font-family: "Kaisei Decol", serif;
   }
@@ -169,7 +171,6 @@ html{
     flex: 1;
     margin-top: 50px;
     border-radius: 50%;
-    margin-left: 10px;
     aspect-ratio: 1/1;
     display: inline-block
   }
@@ -184,7 +185,6 @@ html{
     flex: 1;
     margin-top: 50px;
     border-radius: 50%;
-    margin-left: 10px;
     aspect-ratio: 1/1;
     display: inline-block
   }
@@ -199,7 +199,6 @@ html{
     flex: 1;
     margin-top: 50px;
     border-radius: 50%;
-    margin-left: 10px;
     aspect-ratio: 1/1;
     display: inline-block
   }
@@ -211,26 +210,22 @@ html{
   }
   
   .skillsnames{
-    display: flex;
     flex-direction: row;
     margin-top: 30%;
     font-family: "League Script", cursive;
   }
   
-  .skilln1{
-    flex: 1;
+  .skilln1, .skilln2, .skilln3{
+    margin-top: 10%;
+    font-family: "League Script", cursive;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
   }
-  
-  .skilln2{
-    flex: 1;
-  }
-  
-  .skilln3{
-    flex: 1;
-  }
-  
+ 
   .viewgallery button{
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 20px;
     border: 2px black solid;
     background-color: #FFFFF6;
@@ -330,23 +325,23 @@ html{
   
   .accordion {
     background-color: #FFFFF6;
-    height: 15px;
+    height: 20px;
     width: 200px;
     color: #444;
-    cursor: pointer;
     font-family: "Kaisei Decol", serif;
-    padding: 18px;
+    padding: 25px;
     margin-top: 2px;
     text-align: left;
-    border: none;
+    border: 1px solid #ccc;
     outline: none;
     transition: 0.4s;
-    align-items: center;
   }
   
   .active, .accordion:hover {
     background-color: #e8e8e1;
     margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
   }
   
   .accordion:after {
@@ -440,7 +435,7 @@ html{
   }
   
   .service3{
-    height: 50px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     margin-top: 20%;
@@ -470,6 +465,35 @@ html{
     font-size: 15px;
     font-family: "Kaisei Decol", serif;
     text-align: left;
+  }
+
+  .find{
+    margin-top: 20%;
+    margin-left: 3%;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    font-family: "Kaisei Decol", serif;
+    margin-left: 10%;
+  }
+
+  .contactme button{
+    font-size: 20px;
+    border: 2px black solid;
+    background-color: #FFFFF6;
+    z-index: 2;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    font-family: "Kaisei Decol", serif;
+    margin-top: 1%;
+  }
+  
+  .contactme button:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: #FFFFF6;
+    transition: .5s;
   }
   
   .testimonialspage{
@@ -513,6 +537,7 @@ html{
     height: 100px;
     padding: 40px;
     font-size: 15px;
+    width: 80%;
     font-family: "Kaisei Decol", serif;
   }
   
@@ -590,7 +615,28 @@ html{
     text-align: center;
     font-family: "Kaisei Decol", serif;
   }
-  
+
+  .folders{
+    margin-left: 3%;
+  }
+
+  .folders button{
+    flex-direction: column;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: "Kaisei Decol", serif;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .folders button:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
   .pic{
     flex: 1;
     max-height: 100%;
@@ -621,7 +667,9 @@ html{
   }
   
   .footer{
-    height: 75px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: black;
     font-size: 13px;
     color: white;
@@ -945,9 +993,83 @@ html{
       color: red;
     }
 
+    .service1b{
+      margin-top: 5%;
+    }
+
+    .service2b{
+      margin-top: 5%;
+    }
+
+    .service3{
+      margin-top: 22%;
+    }
+
+    .service3b{
+      margin-top: 3.5%;
+    }
+
+    .client1{
+      align-self: center;
+      margin-left: 10%;
+    }
+
     .testimonial1{
-      margin-top: 50px;
-      font-size: 25px;
-      /* ??? */
+      margin-left: 8%;
+      margin-top: 35%;
+    }
+
+    .client2{
+      align-self: center;
+      margin-left: 10%;
+      margin-top: 150px;
+    }
+
+    .testimonial2{
+      margin-left: 5%;
+      margin-top: 35%;
+    }
+
+    .client3{
+      align-self: center;
+      margin-left: 10%;
+      margin-top: 150px;
+    }
+
+    .testimonial3{
+      margin-left: 8%;
+      margin-top: 35%;
+    }
+
+    .folders{
+      margin-left: 4%;
+    }
+
+    .folders button{
+      font-size: 15px;
+    }
+
+    .gallerywrap{
+      margin-left: 4%;
+    }
+
+    .gallerypage{
+      height: 4500px;
+    }
+    
+    .aboutpage{
+      height: 130%;
+    }
+
+    .investpage{
+      height: 230%;
+    }
+    
+    .bodyi{
+      height: 230px;
+    }
+
+    .testimonialspage{
+      height: 400%;
     }
 }
