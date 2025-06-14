@@ -17,24 +17,22 @@ body{
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background: rgba(0, 0, 0, 0.5);
-  height: 3.125rem;
-  padding: 1rem;
+  padding: 1rem 0;
   color: white;
   font-family: "League Script", cursive;
-  font-size: 1.875rem;
+  text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .header2 {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   background: black;
   height: 3.125rem;
@@ -48,18 +46,19 @@ body{
   z-index: 2;
 }
 
-.logo{
-  margin-left: .5rem;
-  display: inline-block;
+.logo {
+  font-size: 2rem;
+  height: 2rem;
+  width: auto;
 }
 
 .buttons ul {
   list-style: none;
   display: flex;
-  gap: .25em;
+  justify-content: center;
+  gap: .5rem;
   margin: 0;
   padding: 0;
-  padding-right: 3rem;
 }
 
 .buttons li {
@@ -71,9 +70,8 @@ body{
   border: none;
   color: white;
   font-family: "Kaisei Decol", serif;
-  font-size: .75rem;
+  font-size: .825rem;
   cursor: pointer;
-  padding: 0.5em 1em;
 }
 
 .buttons button:hover {
@@ -711,3 +709,52 @@ img.background {
   color: black;
 }
 
+/* for media above a phone screen
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 3.125rem;
+  padding: 1rem;
+  color: white;
+  font-family: "League Script", cursive;
+  font-size: 1.875rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+  
+.logo{
+  margin-left: .5rem;
+  display: inline-block;
+}
+
+.buttons ul {
+  list-style: none;
+  display: flex;
+  gap: .25em;
+  margin: 0;
+  padding: 0;
+  padding-right: 3rem;
+}
+
+.buttons li {
+  display: inline-block;
+}
+
+.buttons button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: "Kaisei Decol", serif;
+  font-size: .75rem;
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+.buttons button:hover {
+  text-decoration: underline;
+}
+} */
