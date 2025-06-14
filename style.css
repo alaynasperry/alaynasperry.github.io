@@ -1,702 +1,713 @@
 html{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-  }
-  
-  body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-    background-color: #FFFFF6;
-  }
-  
-  .header {
-      display: flex;
-      background: rgba(0,0,0,.5);
-      height: 50px;
-      width: 100%;
-      z-index: 2;
-      padding: 15px;
-      color: white;
-      align-items: center;
-      font-family: "League Script", cursive;
-      font-size: 30px;
-      position: fixed;
-      top: 0;
-  }
-  
-  .header2 {
-      display: flex;
-      background: black;
-      height: 50px;
-      z-index: 2;
-      padding: 15px;
-      color: white;
-      align-items: center;
-      font-family: "League Script", cursive;
-      font-size: 30px;
-      position: fixed;
-      top: 0;
-      width: 100%;
-  }
-
-  .logo{
-      margin-left: 1%;
-      display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
 }
-  
-  .buttons{
-      margin-left: 49%;
-  }
-  
-  .buttons button:hover {
-      text-decoration: underline;
-  }
-  
-  
-  img.background {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: auto;
-      z-index: -1;
-  }
-  
-  
-  .buttons button{
-    position: relative;
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-family: "Kaisei Decol", serif;
-    padding: 6px;
-    cursor: pointer;
-  }
-  
-  .base{
-    margin-top: 80px;
-    position: relative;
-    height: 800px;
-    width: 100%;
-    background-color: #FFFFF6;
-    padding: 20px;
-    z-index: -3;
-  }
-  
-  .homebody1{
-    position: relative;
-    height: 500px;
-    margin-top: 60%;
-    background-color: #FFFFF6;
-    padding: 15px;
-  }
-  
-  .homebase2{
-    border: 1px solid black;
-    height: 425px;
-    margin-top: 5%;
-    padding: 15px;
-    font-size: 30px;
-    text-align: right;
-  }
-  
-  .heada1{
-    height: 50px;
-    padding: 15px;
-    font-size: 30px;
-    margin-top: 40px;
-    text-align: center;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .homebase3{
-    padding: 20px;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .homebase4{
-    flex: 1;
-    height: 230px;
-    margin-top: 35px;
-    padding: 10px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: left;
-  }
-  
-  .photo-carousel{
-    flex: 1;
-    height: 150%;
-    position: relative;
-    padding: 5%;
-    margin-top: -6%;
-  }
-  
-  .photo-carousel img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-  }
-  
-  .homebody2{
-    position: relative;
-    height: 900px;
-    margin-top: 0;
-    background-color: #FFFFF6;
-    padding: 15px;
-  }
-  
-  .skillsbase{
-    height: 20%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;;
-    margin-left: auto;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .skillshead{
-    height: 100%;
-    padding: 15px;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10%;
-  }
-  
-  .skill1{
-    flex: 1;
-    margin-top: 50px;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    display: inline-block
-  }
-  
-  .skill1 img{
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  .skill2{
-    flex: 1;
-    margin-top: 50px;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    display: inline-block
-  }
-  
-  .skill2 img{
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  .skill3{
-    flex: 1;
-    margin-top: 50px;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    display: inline-block
-  }
-  
-  .skill3 img{
-    max-height: 100%;
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  .skillsnames{
-    flex-direction: row;
-    margin-top: 30%;
-    font-family: "League Script", cursive;
-  }
-  
-  .skilln1, .skilln2, .skilln3{
-    margin-top: 10%;
-    font-family: "League Script", cursive;
-    background: transparent;
-    border: none;
-    font-size: 30px;
-    font-weight: bold;
-  }
- 
-  .viewgallery button{
-    margin-top: 10%;
-    font-size: 20px;
-    border: 2px black solid;
-    background-color: #FFFFF6;
-    padding: 10px;
-    color: black;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .viewgallery button:hover {
-    text-decoration: underline;
-    background-color: black;
-    color: #FFFFF6;
-    transition: .5s;
-  }
-  
-  .aboutpage{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
-  
-  .bodya1{
-    margin-left: -3%;
-    padding: 80px;
-    height: 50px;
-    background-color: #FFFFF6;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .bodya2{
-    flex: 1;
-    height: 100%;
-    position: relative;
-  }
-  
-  .bodya3{
-    flex: 1;
-    height: 700%;
-    border: 1px solid;
-    padding: 10px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: left;
-  }
-  
-  .bodya2 img {
-    max-width: 100%;
-    min-height: 100%;
-    object-fit: contain;
-  }
-  
-  .letstalk{
-    margin-top: 100px;
-    
-  }
-  
-  .letstalk button{
-    margin-top: -200px;
-    margin-bottom: 300px;
-    margin-left: 775px;
-    font-size: 20px;
-    border: 2px black solid;
-    background-color: #FFFFF6;
-    z-index: 2;
-    cursor: pointer;
-    padding: 10px;
-    color: black;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .letstalk button:hover {
-    text-decoration: underline;
-    background-color: black;
-    color: #FFFFF6;
-    transition: .5s;
-  }
-  
-  .investpage{
-    background-color: #FFFFF6;
-    height: 140%;
-    margin-top: 130px;
-  }
-  
-  .bodyi{
-    height: 140%;
-  }
-  
-  .headeri{
-    height: 50px;
-    padding: 15px;
-    font-size: 30px;
-    margin: 20px;
-    text-align: center;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .accordion {
-    background-color: #FFFFF6;
-    height: 20px;
-    width: 200px;
-    color: #444;
-    font-family: "Kaisei Decol", serif;
-    padding: 25px;
-    margin-top: 2px;
-    text-align: left;
-    border: 1px solid #ccc;
-    outline: none;
-    transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #e8e8e1;
-    margin-top: 10px;
-    cursor: pointer;
-    text-align: center;
-  }
-  
-  .accordion:after {
-    content: '\02795';
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    width: 200px;
-    background-color: white;
-    display: none;
-    max-height: 0;
-    overflow: hidden;
-    text-align: left;
-    font-size: 15px;
-    transition: max-height 0.2s ease-out;
-  }
-  
-  .service1{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .service1a{
-    flex: 1;
-    height: 100px;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: center;
-  }
-  
-  .service1a img{
-    width: 40%;
-    height: auto;
-  }
-  
-  .service1b{
-    flex: 1;
-    height: 300px;
-    border: 1px solid;
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px;
-    text-align: left;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .service2{
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 25%;
-  }
-  
-  .service2a{
-    flex: 1;
-    height: 100px;
-    padding: 10px;
-    margin-top: -20px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: center;
-  }
-  
-  .service2a img{
-    width: 40%;
-    height: auto;
-  }
-  
-  .service2b{
-    flex: 1;
-    height: 215px;
-    border: 1px solid;
-    margin: 20px;
-    padding: 20px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: left;
-  }
-  
-  .service3{
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 20%;
-  }
-  
-  .service3a{
-    flex: 1;
-    height: 125px;
-    margin-top: 35px;
-    padding: 10px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: center;
-  }
-  
-  .service3a img{
-    width: 60%;
-    height: auto;
-  }
-  
-  .service3b{
-    flex: 1;
-    height: 225px;
-    border: 1px solid;
-    margin: 20px;
-    padding: 20px;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    text-align: left;
-  }
 
-  .find{
-    margin-top: 20%;
-    margin-left: 3%;
-    height: 50px;
-    font-size: 20px;
-    color: black;
-    font-family: "Kaisei Decol", serif;
-    margin-left: 10%;
-  }
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  background-color: #FFFFF6;
+}
 
-  .contactme button{
-    font-size: 20px;
-    border: 2px black solid;
-    background-color: #FFFFF6;
-    z-index: 2;
-    cursor: pointer;
-    padding: 10px;
-    color: black;
-    font-family: "Kaisei Decol", serif;
-    margin-top: 1%;
-  }
-  
-  .contactme button:hover {
-    text-decoration: underline;
-    background-color: black;
-    color: #FFFFF6;
-    transition: .5s;
-  }
-  
-  .testimonialspage{
-    background-color: #FFFFF6;
-    height: 375%;
-  }
-  
-  .headert{
-    height: 50px;
-    padding: 15px;
-    margin-top: 130px;
-    font-size: 30px;
-    text-align: center;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .client1{
-    margin-top: 5%;
-    margin-left: 3.5%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .photoi{
-    flex: 1;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    display: inline-block;
-  }
-  
-  .photoi img {
-    max-width: 100%;
-    min-height: 100%;
-    border-radius: 50%;
-    object-fit: contain;
-  }
-  
-  .testimonial1{
-    margin-top: 45%;
-    height: 100px;
-    padding: 40px;
-    font-size: 15px;
-    width: 80%;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .client2{
-    margin-top: 5%;
-    margin-left: 3.5%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .testimonial2{
-    height: 100px;
-    padding: 40px;
-    margin-top: 45%;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .client3{
-    margin-top: 5%;
-    margin-left: 3.5%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .testimonial3{
-    height: 100px;
-    padding: 40px;
-    margin-top: 45%;
-    font-size: 15px;
-    font-family: "Kaisei Decol", serif;
-    
-  }
-  
-  .contactpage{
-    background-color: #FFFFF6;
-    height: 80%;
-  }
-  
-  .headerc{
-    height: 50px;
-    padding: 15px;
-    font-size: 30px;
-    margin-top: 10%;
-    text-align: center;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .contactinfo{
-    height: 200px;
-    padding: 15px;
-    font-size: 30px;
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    text-align: center;
-    border: 1px solid;
-    font-family: "Kaisei Decol", serif;
-  }
-  
-  .gallerypage{
-    background-color: #FFFFF6;
-    height: 3000px;
-    margin-top: -50px
-  }
-  
-  .headerg{
-    height: 50px;
-    padding: 70px;
-    font-size: 30px;
-    margin-top: 130px;
-    text-align: center;
-    font-family: "Kaisei Decol", serif;
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 3.125rem;
+  padding: 1rem;
+  color: white;
+  font-family: "League Script", cursive;
+  font-size: 1.875rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
 
-  .folders{
-    margin-left: 3%;
-  }
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  height: 3.125rem;
+  padding: 1rem;
+  color: white;
+  font-family: "League Script", cursive;
+  font-size: 1.875rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
 
-  .folders button{
-    flex-direction: column;
-    position: relative;
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-family: "Kaisei Decol", serif;
-    padding: 10px;
-    cursor: pointer;
-  }
+.logo{
+  margin-left: .5rem;
+  display: inline-block;
+}
 
-  .folders button:hover{
-    text-decoration: underline;
-    font-weight: bold;
-    cursor: pointer;
-  }
+.buttons ul {
+  list-style: none;
+  display: flex;
+  gap: .25em;
+  margin: 0;
+  padding: 0;
+  padding-right: 3rem;
+}
 
-  .pic{
-    flex: 1;
-    max-height: 100%;
-    max-width: 100%;
-  }
-  
-  .gallerywrap{
-    margin-top: 10px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .row1, .row2, .row3{
-    flex: 1;
-  }
-  
-  .picdiv{
-    width: 85%;
-    max-height: 100%;
-    padding: 5px;
-    margin: 5px;
-  }
-  
-  .picdiv img{
+.buttons li {
+  display: inline-block;
+}
+
+.buttons button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: "Kaisei Decol", serif;
+  font-size: .75rem;
+  cursor: pointer;
+  padding: 0.5em 1em;
+}
+
+.buttons button:hover {
+  text-decoration: underline;
+}
+
+img.background {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: auto;
-  }
+    z-index: -1;
+}
+
+.base{
+  margin-top: 80px;
+  position: relative;
+  height: 800px;
+  width: 100%;
+  background-color: #FFFFF6;
+  padding: 20px;
+  z-index: -3;
+}
+
+.homebody1{
+  position: relative;
+  height: 500px;
+  margin-top: 60%;
+  background-color: #FFFFF6;
+  padding: 15px;
+}
+
+.homebase2{
+  border: 1px solid black;
+  height: 425px;
+  margin-top: 5%;
+  padding: 15px;
+  font-size: 30px;
+  text-align: right;
+}
+
+.heada1{
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Kaisei Decol", serif;
+}
+
+.homebase3{
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.homebase4{
+  flex: 1;
+  height: 230px;
+  margin-top: 35px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: left;
+}
+
+.photo-carousel{
+  flex: 1;
+  height: 150%;
+  position: relative;
+  padding: 5%;
+  margin-top: -6%;
+}
+
+.photo-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.homebody2{
+  position: relative;
+  height: 900px;
+  margin-top: 0;
+  background-color: #FFFFF6;
+  padding: 15px;
+}
+
+.skillsbase{
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;;
+  margin-left: auto;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+}
+
+.skillshead{
+  height: 100%;
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.skill1{
+  flex: 1;
+  margin-top: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: inline-block
+}
+
+.skill1 img{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.skill2{
+  flex: 1;
+  margin-top: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: inline-block
+}
+
+.skill2 img{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.skill3{
+  flex: 1;
+  margin-top: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: inline-block
+}
+
+.skill3 img{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.skillsnames{
+  flex-direction: row;
+  margin-top: 30%;
+  font-family: "League Script", cursive;
+}
+
+.skilln1, .skilln2, .skilln3{
+  margin-top: 10%;
+  font-family: "League Script", cursive;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.viewgallery button{
+  margin-top: 10%;
+  font-size: 20px;
+  border: 2px black solid;
+  background-color: #FFFFF6;
+  padding: 10px;
+  color: black;
+  font-family: "Kaisei Decol", serif;
+}
+
+.viewgallery button:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: #FFFFF6;
+  transition: .5s;
+}
+
+.aboutpage{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.bodya1{
+  margin-left: -3%;
+  padding: 80px;
+  height: 50px;
+  background-color: #FFFFF6;
+  display: flex;
+  flex-direction: row;
+}
+
+.bodya2{
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.bodya3{
+  flex: 1;
+  height: 700%;
+  border: 1px solid;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: left;
+}
+
+.bodya2 img {
+  max-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
+}
+
+.letstalk{
+  margin-top: 100px;
   
-  .footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    font-size: 13px;
-    color: white;
-    text-align: center;
-    padding: 25px;
-    font-family: "Kaisei Decol", serif;
-  }
+}
+
+.letstalk button{
+  margin-top: -200px;
+  margin-bottom: 300px;
+  margin-left: 775px;
+  font-size: 20px;
+  border: 2px black solid;
+  background-color: #FFFFF6;
+  z-index: 2;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  font-family: "Kaisei Decol", serif;
+}
+
+.letstalk button:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: #FFFFF6;
+  transition: .5s;
+}
+
+.investpage{
+  background-color: #FFFFF6;
+  height: 140%;
+  margin-top: 130px;
+}
+
+.bodyi{
+  height: 140%;
+}
+
+.headeri{
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Kaisei Decol", serif;
+}
+
+.accordion {
+  background-color: #FFFFF6;
+  height: 20px;
+  width: 200px;
+  color: #444;
+  font-family: "Kaisei Decol", serif;
+  padding: 25px;
+  margin-top: 2px;
+  text-align: left;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #e8e8e1;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.accordion:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+}
+
+.panel {
+  padding: 0 18px;
+  width: 200px;
+  background-color: white;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  text-align: left;
+  font-size: 15px;
+  transition: max-height 0.2s ease-out;
+}
+
+.service1{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.service1a{
+  flex: 1;
+  height: 100px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service1a img{
+  width: 40%;
+  height: auto;
+}
+
+.service1b{
+  flex: 1;
+  height: 300px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Kaisei Decol", serif;
+}
+
+.service2{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25%;
+}
+
+.service2a{
+  flex: 1;
+  height: 100px;
+  padding: 10px;
+  margin-top: -20px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service2a img{
+  width: 40%;
+  height: auto;
+}
+
+.service2b{
+  flex: 1;
+  height: 215px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: left;
+}
+
+.service3{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20%;
+}
+
+.service3a{
+  flex: 1;
+  height: 125px;
+  margin-top: 35px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: center;
+}
+
+.service3a img{
+  width: 60%;
+  height: auto;
+}
+
+.service3b{
+  flex: 1;
+  height: 225px;
+  border: 1px solid;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+  text-align: left;
+}
+
+.find{
+  margin-top: 20%;
+  margin-left: 3%;
+  height: 50px;
+  font-size: 20px;
+  color: black;
+  font-family: "Kaisei Decol", serif;
+  margin-left: 10%;
+}
+
+.contactme button{
+  font-size: 20px;
+  border: 2px black solid;
+  background-color: #FFFFF6;
+  z-index: 2;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  font-family: "Kaisei Decol", serif;
+  margin-top: 1%;
+}
+
+.contactme button:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: #FFFFF6;
+  transition: .5s;
+}
+
+.testimonialspage{
+  background-color: #FFFFF6;
+  height: 375%;
+}
+
+.headert{
+  height: 50px;
+  padding: 15px;
+  margin-top: 130px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Kaisei Decol", serif;
+}
+
+.client1{
+  margin-top: 5%;
+  margin-left: 3.5%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photoi{
+  flex: 1;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: inline-block;
+}
+
+.photoi img {
+  max-width: 100%;
+  min-height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.testimonial1{
+  margin-top: 45%;
+  height: 100px;
+  padding: 40px;
+  font-size: 15px;
+  width: 80%;
+  font-family: "Kaisei Decol", serif;
+}
+
+.client2{
+  margin-top: 5%;
+  margin-left: 3.5%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial2{
+  height: 100px;
+  padding: 40px;
+  margin-top: 45%;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
+}
+
+.client3{
+  margin-top: 5%;
+  margin-left: 3.5%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial3{
+  height: 100px;
+  padding: 40px;
+  margin-top: 45%;
+  font-size: 15px;
+  font-family: "Kaisei Decol", serif;
   
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-    opacity: 0.5;
-  }
-  
-  .fa-instagram {
-    background: transparent;
-    color: black;
-  }
+}
+
+.contactpage{
+  background-color: #FFFFF6;
+  height: 80%;
+}
+
+.headerc{
+  height: 50px;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 10%;
+  text-align: center;
+  font-family: "Kaisei Decol", serif;
+}
+
+.contactinfo{
+  height: 200px;
+  padding: 15px;
+  font-size: 30px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  border: 1px solid;
+  font-family: "Kaisei Decol", serif;
+}
+
+.gallerypage{
+  background-color: #FFFFF6;
+  height: 3000px;
+  margin-top: -50px
+}
+
+.headerg{
+  height: 50px;
+  padding: 70px;
+  font-size: 30px;
+  margin-top: 130px;
+  text-align: center;
+  font-family: "Kaisei Decol", serif;
+}
+
+.folders{
+  margin-left: 3%;
+}
+
+.folders button{
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-family: "Kaisei Decol", serif;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.folders button:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pic{
+  flex: 1;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.gallerywrap{
+  margin-top: 10px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.row1, .row2, .row3{
+  flex: 1;
+}
+
+.picdiv{
+  width: 85%;
+  max-height: 100%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.picdiv img{
+  width: 100%;
+  height: auto;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-family: "Kaisei Decol", serif;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: black;
+}
+
